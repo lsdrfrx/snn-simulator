@@ -1,0 +1,16 @@
+#appbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 32px;
+    border-bottom: 2px #333333 solid;
+    align-items: center;
+    padding: 4px 16px;
+    font-size: 16px;
+    line-height: 16px;
+    user-select: none;
+
+    #appbar-leading, #appbar-trailing {
+        cursor: pointer;
+    }
+}

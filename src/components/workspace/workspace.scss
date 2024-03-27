@@ -1,0 +1,18 @@
+#workspace {
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+
+    .sigma-scene, .sigma-labels,
+    .sigma-mouse, .sigma-nodes,
+    .sigma-edges, .sigma-edgeLabels,
+    .sigma-hovers, .sigma-hoverNodes {
+        left: 0;
+    }
+
+    #sigma_container {
+        height: 100%;
+        width: 100%;
+    }
+}
